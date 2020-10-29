@@ -3,10 +3,16 @@ import React from 'react';
 import './App.css';
 // import Welcome from './functional/welcome';
 
-//import Table from './functional/table';
-//import Form from './class/form';
-//import ToDo from './class/ToDo';
-import State from './class/State';
+// import Table from './functional/table';
+// import Form from './class/form';
+// import ToDo from './class/ToDo';
+// import State from './class/State';
+// import KeyPad from './functional/KeyPad1';
+// import Test from './functional/Test1'
+// import StopWatch from './functional/StopWatch'
+// import Body from './functional/Body';
+import Calculator from './functional/Calculator'
+
 
 function App() {
   return (
@@ -14,8 +20,13 @@ function App() {
       {/* <Welcome/> */}
       {/* <Form/> */}
       {/* <ToDo/> */}
-      <State/>
+     {/* <KeyPad/> */}
       {/* <Table/> */}
+      {/* <State/> */}
+      {/* // <Test/> */}
+      {/* <StopWatch/> */}
+      {/* <Body/> */}
+      <Calculator/>
       
     </div>
   );

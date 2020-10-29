@@ -82,11 +82,11 @@ export default class Form extends React.Component {
 
 
 
-                    <div onChange={(e) => {
+                    <div name ="Area_Delivery" onChange={(e) => {
                         this.inputChangeHandler(e);
                     }}>
                         Area of Dilevery:
-<select>
+<select >
 
                             <option value="Faridabad NCR">Faridabad NCR</option>
                             <option value="Delhi">Delhi</option>
@@ -108,19 +108,7 @@ Do You Want to add a Rose : <input
                     <br />
 
                 </div>
-                {/*
-<div>
-<input
-type="text"
-name="title"
-value={this.state.title}
-onChange={(e, value) => {
-//test for dropdow
-this.titleChangeHandler(e, value);
-}}
-/>
-</div> */}
-                {/* {/ {this.state.firstName} /} */}
+  
                 <div>
                     <button onClick={() => { alert(JSON.stringify(this.state)) }}>
                         Submit
